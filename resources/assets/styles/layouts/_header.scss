@@ -1,0 +1,153 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+/* Pen Header */
+
+.pen {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 10px;
+  //background: black;
+	border-bottom: 5px solid var(--grey);
+	padding: 16px 0px 8px 0px;
+}
+
+.preview {
+  display: grid;
+}
+
+/* Buttons */
+
+.button {
+  background: var(--grey);
+  border: 0;
+  color: white;
+  padding: 10px;
+  border-radius:5px;
+  font-size: 15px;
+  position: relative;
+}
+
+.button--small {
+  font-size: 12px;
+  padding: 4px;
+}
+
+.button--dirty:before {
+  background: #ffc600;
+  display: block;
+  content: '';
+  height: 2px;
+  width: calc(100% - 6px);
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+
+
+.settings {
+  padding: 5px;
+  background: black;
+  border-top: 1px solid grey;
+}
+
+nav{
+	display: grid;
+	//position: fixed;
+	box-sizing: border-box;
+	font-family: aqua-regular;
+	text-transform: uppercase;
+	top: 0;
+	right: 0;
+	z-index: 9000;
+	padding: 0;
+	width: 100%;
+	height: 5vh;
+	background: transparent;
+
+}
+nav::before,
+nav > *:first-child{
+	//content: "\2261";
+	display: block;
+	position: absolute;
+	//right: 46vw;
+	//top: 0vh;
+	z-index: 99999;
+	font-size: 48px;
+	//width: 0.5em !important;
+	height: 1em;
+}
+
+nav > *:nth-child(2){
+	position: fixed;
+	height: 0;
+	width: 100vw;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	opacity: 0;
+	transition: opacity 1s;
+	overflow: auto;
+}
+
+nav > *:nth-child(2) > *{
+	position: relative;
+	display: block;
+	font-size: 4em;
+	color: #fff;
+	top: 1em;
+	opacity: 0;
+	transition: all 1s;
+}
+
+nav.open{
+	width: 100%;
+	height: 100%;
+}
+nav.open::before{
+	//content: "\00d7";
+}
+
+nav.open > *:nth-child(2){
+	height: 100vh;
+	opacity: 1;
+}
+
+nav.open > *:nth-child(2) > *{
+	opacity: 1;
+	top: 0;
+}
+
+.header-icons img {
+	height: 4vh;
+}
+
+.britt-header-nav {
+	li.menu-item {
+		text-align:center;
+		a {
+			color: $white;
+			text-decoration:none;
+		}
+	}
+	li:first-child {
+		margin-top: 96px;
+	}
+} 
+.britt-header-nav-container {
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+}
+
+.page-header {
+	margin-top: 40px;
+}

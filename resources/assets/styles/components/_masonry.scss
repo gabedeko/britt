@@ -1,0 +1,38 @@
+.britt-card {
+    padding: 8px;
+    border-radius: 0;
+    border: 0;
+    transition: padding .3s ease-in-out;
+    .card-img-top {
+        border-radius: 0;
+    }
+    &:hover {
+        padding: 8px;
+        transition: padding .3s ease-in-out;
+    }
+}
+
+.card-img-overlay {
+    
+    border: 2px solid rgba(0,0,0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+    .card-img-content {
+        text-align: center;
+    }
+    .card-img-content {
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    }
+    &:hover {
+        border: 2px solid rgba(0,0,0, 0);
+        background-color:rgba(255,255,255, 0.8) !important;
+        transition: all .3s ease-in-out;
+        .card-img-content {
+            opacity: 1;
+            transition: opacity .3s ease-in-out;
+        }
+    }
+}

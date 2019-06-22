@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="838px" height="838px" viewBox="0 0 838 838" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#000000" fill-rule="nonzero">
+            <path d="M82,0 L756,0 C803,0 838,35 838,82 L838,756 C838,803 803,838 756,838 L82,838 C35,838 0,803 0,756 L0,82 C0,35 35,0 82,0 Z M419,252 C324,252 254,324 254,419 C254,513 325,584 419,584 C514,584 584,513 584,419 C584,324 514,252 419,252 Z M104,756 L734,756 C748,754 754,748 756,734 L756,378 L667,378 C669,391 671,405 671,419 C669,561 561,671 419,671 C277,671 169,561 167,419 C167,405 169,391 171,378 L82,378 L82,734 C84,748 90,754 104,756 Z M756,189 L756,104 C754,90 748,84 734,82 L649,82 C638,84 632,90 630,104 L630,189 C632,200 638,206 649,208 L734,208 C748,206 754,200 756,189 Z"></path>
+        </g>
+    </g>
+</svg>

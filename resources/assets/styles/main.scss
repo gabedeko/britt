@@ -1,0 +1,33 @@
+// Import Slick
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+@import "common/variables";
+
+/** Import everything from autoload */
+@import "./autoload/**/*";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+// @import "~some-node-module";
+
+/** Import theme styles */
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/wp-classes";
+@import "components/press";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/tinymce";
+@import "layouts/post";
+@import "layouts/nav";
+@import "layouts/pages";
+@import "components/masonry";
+@import "common/fonts";
+//@import "common/slick-fix";

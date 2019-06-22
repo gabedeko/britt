@@ -1,0 +1,25 @@
+.press-list-item {
+    height:86vh;
+    border: 2px solid $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.press-item-1 {
+    background-image: url('http://www.avroko.com/wp-content/uploads/2017/10/IR-pCover-1-920x1200.jpg');
+    background-size: cover;
+}
+.press-item-2 {
+    background-image: url('http://www.avroko.com/wp-content/uploads/2018/06/2018.36_Elle-Decoration_cover-920x1200.jpg');
+    background-size: cover;
+}
+.press-item-3 {
+    background-image: url('http://www.avroko.com/wp-content/uploads/2015/04/15.0410_Surface_pg1-920x1251.jpg');
+    background-size: cover;
+}
+.press-item-4 {
+    background-image: url('http://www.avroko.com/wp-content/uploads/2012/04/12_NYTimes_11-920x1200.jpg');
+    background-size: cover;
+}

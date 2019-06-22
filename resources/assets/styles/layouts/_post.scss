@@ -1,0 +1,32 @@
+.type-post {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 16px;
+}
+
+.slick-slider {
+    width: 100%!important;
+    z-index: 0;
+}
+.slick-track {
+    //width:100%!important;
+    img {
+        //width:100%!important;
+    }
+}
+.slick-prev, .slick-next {
+    top: 42%;
+    z-index: 1;
+    background:none;
+    &:before {
+        font-size: 48px;
+    }
+}
+
+.slick-prev {
+    left: 0;
+}
+.slick-next {
+    right: 25px;
+}

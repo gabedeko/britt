@@ -1,0 +1,20 @@
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-gap:1em;
+    margin-top:100px;
+}
+.about-image-overlay {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    padding: 8px;
+    .about-image {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.contact-container {
+    margin-top:8px;
+}
