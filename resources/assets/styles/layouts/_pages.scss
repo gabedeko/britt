@@ -1,18 +1,28 @@
 .about-container {
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap:1em;
     margin-top:100px;
 }
-.about-image-overlay {
-    height: 100%;
-    width: 100%;
-    border: 2px solid black;
+
+.about-image-desktop {
+    align-self: center;
+    justify-self: center;
     padding: 8px;
-    .about-image {
-        height: 100%;
-        width: 100%;
-    }
+    border: 2px solid black;
+    @media (max-width: 991.98px) { 
+        display: none;
+     }
+}
+.about-image-mobile {
+    align-self: center;
+    justify-self: center;
+    padding: 8px;
+    border: 2px solid black;
+    
+    @media (min-width: 992px) { 
+        display:none;
+     }
 }
 
 .contact-container {

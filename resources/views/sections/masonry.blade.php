@@ -1,7 +1,7 @@
 <div class="card-columns">  
 @while(have_posts()) @php(the_post())
         <a href="<?php echo get_permalink(); ?>" class="card britt-card">
-            {!! the_post_thumbnail(array('full',0), array('class' => 'card-img-top')); !!}
+            {!! the_post_thumbnail('full', array('class' => 'card-img-top')); !!}
             <div class="card-img-overlay">
                 <div class="card-img-content">
                     <h3 class="card-title">{{ get_the_title() }}</h3>

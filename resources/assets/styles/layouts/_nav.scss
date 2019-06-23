@@ -21,6 +21,9 @@
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+    @media (max-width: 991.98px) { 
+      margin-left: -40px;
+   }
   }
 
   #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {

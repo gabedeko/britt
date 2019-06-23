@@ -7,7 +7,7 @@
       <a class="footer-icon" href=""><img src="@asset('images/icons/email-outline.svg')" ></a>
     </div>
 
-    <p>Copyright © 2018 <a href="mailto:brittney.interiors@gmail.com">Brittney Williams</a></p>
+    <p class="footer-copyright">Copyright © 2018 <a href="mailto:brittney.interiors@gmail.com">Brittney Williams</a></p>
     </div>
   </div>
 </footer>

@@ -5,6 +5,8 @@
     transition: padding .3s ease-in-out;
     .card-img-top {
         border-radius: 0;
+
+        height:400px;
     }
     &:hover {
         padding: 8px;

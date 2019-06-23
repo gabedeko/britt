@@ -1,6 +1,6 @@
 .type-post {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: minmax(300px, 70%) minmax(300px, 30%);
     grid-template-rows: 1fr;
     grid-column-gap: 16px;
 }
@@ -29,4 +29,10 @@
 }
 .slick-next {
     right: 25px;
+}
+
+.entry-content {
+    @media (max-width: 991.98px) { 
+        text-align: center;
+     }
 }
