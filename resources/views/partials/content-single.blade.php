@@ -28,7 +28,12 @@
         <div class="entry-content">
         <h3 class="entry-title">{{ get_the_title() }}</h3>
         @include('partials/entry-meta')
-        <div>test</div>
+        <div>
+        <?php
+        $summary = get_field('description');
+        echo $summary;
+        ?>
+        </div>
         @php(the_content())
       </div>
     </div>
