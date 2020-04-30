@@ -79,7 +79,7 @@
     "animate.css": "^3.7.0",
     "bootstrap": "v4.3.1",
     "imagesloaded": "^4.1.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.14.7",
     "slick-carousel": "^1.8.1",
     "vanilla-lazyload": "^11.0.6"
